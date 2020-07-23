@@ -1,10 +1,13 @@
 from flask import Flask
 app = Flask(__name__)
+# Simple hello world for deployment to kubernetes pod
+# Linux Accademy testing CI/CD pipelines
+# Test001a
 
 
 @app.route("/")
 def hello():
-    return "Hello Griffin and the World!"
+    return "Hello Griffin QA and the World!"
 
 
 if __name__ == "__main__":
